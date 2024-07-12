@@ -39,7 +39,7 @@ Las "llaves" de encriptación utilizadas son:
 ## Instalación
 1. Clone este repositorio:
    ```
-   git clone https://github.com/su-usuario/challenge-oracle-decoder.git
+   git clone https://github.com/DiiegoA/challenge-oracle-decoder.git
    ```
 2. Abra el archivo `index.html` en su navegador web.
 
@@ -48,6 +48,3 @@ Este proyecto fue desarrollado como parte del programa Oracle Next Education en 
 
 ## Autor
 Diego Felipe Aguirre López
-
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulte el archivo `LICENSE` para más detalles.
