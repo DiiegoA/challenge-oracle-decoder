@@ -12,7 +12,7 @@ Este proyecto es parte del desafío de Oracle Next Education y Alura Latam. Se t
 - Interfaz de usuario intuitiva
 - Diseño responsivo para dispositivos móviles y de escritorio
 - Botón de copiar para facilitar el uso del texto resultante
-- Función de limpieza de texto
+- Función de limpieza de texto (solo moviles y tablets)
 - Validación de entrada (solo letras minúsculas sin acentos)
 
 ## Reglas de Encriptación
