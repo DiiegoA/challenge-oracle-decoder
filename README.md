@@ -28,7 +28,7 @@ Las "llaves" de encriptación utilizadas son:
 2. Haga clic en el botón "Encriptar" para codificar el mensaje o "Desencriptar" para decodificarlo.
 3. El resultado aparecerá en el panel lateral derecho.
 4. Use el botón "Copiar" para copiar el resultado al portapapeles.
-5. El botón "Limpiar texto" borrará el contenido del área de texto y el resultado.
+5. El botón "Limpiar texto" borrará el contenido del área de texto y el resultado (solo aplica en dispositivos moviles y tablets).
 
 ## Tecnologías utilizadas
 - HTML5
