@@ -3,12 +3,16 @@
 ## Descripción
 Este proyecto es parte del desafío de Oracle Next Education y Alura Latam. Se trata de una aplicación web que permite encriptar y desencriptar mensajes utilizando un conjunto específico de reglas de sustitución.
 
+## Demo en vivo
+- Puedes ver y probar la aplicación en funcionamiento visitando
+- https://diiegoa.github.io/challenge-oracle-decoder/
+  
 ## Características
 - Encriptación y desencriptación de texto
 - Interfaz de usuario intuitiva
 - Diseño responsivo para dispositivos móviles y de escritorio
 - Botón de copiar para facilitar el uso del texto resultante
-- Función de limpieza de texto
+- Función de limpieza de texto (solo moviles y tablets)
 - Validación de entrada (solo letras minúsculas sin acentos)
 
 ## Reglas de Encriptación
@@ -24,7 +28,7 @@ Las "llaves" de encriptación utilizadas son:
 2. Haga clic en el botón "Encriptar" para codificar el mensaje o "Desencriptar" para decodificarlo.
 3. El resultado aparecerá en el panel lateral derecho.
 4. Use el botón "Copiar" para copiar el resultado al portapapeles.
-5. El botón "Limpiar texto" borrará el contenido del área de texto y el resultado.
+5. El botón "Limpiar texto" borrará el contenido del área de texto y el resultado (solo aplica en dispositivos moviles y tablets).
 
 ## Tecnologías utilizadas
 - HTML5
@@ -39,7 +43,7 @@ Las "llaves" de encriptación utilizadas son:
 ## Instalación
 1. Clone este repositorio:
    ```
-   git clone https://github.com/su-usuario/challenge-oracle-decoder.git
+   git clone https://github.com/DiiegoA/challenge-oracle-decoder.git
    ```
 2. Abra el archivo `index.html` en su navegador web.
 
@@ -48,6 +52,3 @@ Este proyecto fue desarrollado como parte del programa Oracle Next Education en 
 
 ## Autor
 Diego Felipe Aguirre López
-
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulte el archivo `LICENSE` para más detalles.
