@@ -47,13 +47,21 @@ window.onload = function () {
 
   // Evento cuando se hace clic en el botón de encriptar
   btnEncriptar.onclick = function () {
-    var texto = inputTexto.value.toLowerCase();
-    if (!/^[a-z\s]*$/.test(texto)) {
-      alert(
-        "Solo se permiten letras minúsculas sin acentos ni caracteres especiales."
-      );
+    var textoOriginal = inputTexto.value;
+    var texto = textoOriginal.toLowerCase();
+
+    // Verificar si hay mayúsculas en el texto original
+    if (textoOriginal !== texto) {
+      alert("Solo se permiten letras minúsculas. Por favor, revise su texto.");
       return;
     }
+
+    // Verificar si hay caracteres no permitidos
+    if (!/^[a-z\s]*$/.test(texto)) {
+      alert("No se permiten acentos ni caracteres especiales.");
+      return;
+    }
+
     var textoEncriptado = encriptar(texto);
     mostrarResultado(textoEncriptado);
   };
